@@ -68,8 +68,11 @@ body {
     margin-right: 50px;
 }
 
-.header-logo__phon i {
+.header-logo__phon img {
     font-size: 36px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
 }
 
 .header-logo__phon span {
@@ -83,6 +86,7 @@ body {
 
 .header-logo__messng i {
     font-size: 36px;
+    cursor: pointer;
 }
 
 .header-logo__messng a {
@@ -104,6 +108,7 @@ body {
 .header-local__info i {
     display: block;
     text-align: center;
+    cursor: pointer;
 }
 
 .header-local__info {
@@ -122,6 +127,7 @@ body {
 }
 
 .header-logo__instagram i {
+    cursor: pointer;
     font-size: 36px;
 }
 
@@ -339,11 +345,12 @@ body {
 }
 
 .rec-wrap__subtotal h5 {
-    padding: 5px 10px 5px 70px;
+    padding: 5px 15px 5px 70px;
     margin-right: 2px;
     text-align: right;
     background: black;
     font-size: x-large;
+    width: 250px;
 }
 
 .rec-wrap__title h1 {
@@ -388,7 +395,7 @@ body {
 
 .rec-wrap__padid img {
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 
 /* Footer seris */
@@ -403,6 +410,7 @@ body {
 
 .footer-wrap__thank h5 {
     font-size: 18px;
+    margin-left: 95px;
 }
 
 .footer-wrap__thank span {
@@ -412,6 +420,7 @@ body {
 .footer-wrap__com a {
     color: #000000;
     font-weight: bold;
+    margin-right: 95px;
 }
 
 .footer-wrap__com span {
@@ -419,4 +428,5 @@ body {
     text-align: right;
     color: #FD5E14;
     font-weight: bold;
+    margin-right: 95px;
 }
