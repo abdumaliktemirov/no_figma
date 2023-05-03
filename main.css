@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.headr-img {
+    display: flex;
+    position: absolute;
+    bottom: 85%;
+    left: 53%;
+    border: 5px solid #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header seris style */
+#header {
+    background: #464646;
+}
+
+.header-wrap {
+    padding-top: 8px;
+    display: flex;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.header-items {
+    padding-top: 22px;
+}
+
+.header-item {
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+
+.header-wrap__logs {
+    display: flex;
+}
+
+.header-logo__local {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.header-wrap__barnch {
+    margin-left: 95px;
+}
+
+.fa-solid {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.header-logo__phon {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.header-logo__phon i {
+    font-size: 36px;
+}
+
+.header-logo__phon span {
+    display: block;
+    margin-top: 5px;
+}
+
+.header-logo__messng {
+    text-align: center;
+}
+
+.header-logo__messng i {
+    font-size: 36px;
+}
+
+.header-logo__messng a {
+    margin-top: 5px;
+}
+
+.fa-brands {
+    margin-bottom: 10px;
+}
+
+.header-messeng__email a {
+    color: #Fff;
+}
+
+.header-messeng__email span {
+    display: block;
+}
+
+.header-local__info i {
+    display: block;
+    text-align: center;
+}
+
+.header-local__info {
+    width: 225px;
+    margin-right: 30px;
+    margin-bottom: 16px;
+}
+
+.header-logo__instagram {
+    text-align: center;
+    margin-left: 44px;
+}
+
+.header-insta__go a {
+    color: #Fff;
+}
+
+.header-logo__instagram i {
+    font-size: 36px;
+}
+
+/* Mark seris stayle */
+.mark-wrap {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.mark-special__rek {
+    margin-top: 36px;
+    margin-left: 96px;
+    font-size: x-large;
+    color: #444444;
+    font-weight: 400;
+}
+
+.mark-special__rek span {
+    display: block;
+}
+
+.mark-special__mr {
+    margin-top: 36px;
+    margin-left: 96px;
+    font-size: x-large;
+    color: #444444;
+    font-weight: 400;
+}
+
+.mark-wrap__jenis {
+    margin-top: 126px;
+    margin-left: 96px;
+    font-size: x-large;
+    color: #444444;
+    font-weight: 400;
+}
+
+.mark-wrap__jenis h5 {
+    padding-bottom: 5px;
+}
+
+/* Servis seris stayle */
+.seris-wrap {
+    padding-top: 25px;
+}
+
+.servis-wrap {
+    display: flex;
+}
+
+.seris-wrap {
+    margin-left: 96px;
+}
+
+.servis-wrap__title h1 {
+    font-size: xx-large;
+    color: #fff;
+    background: #464646;
+    padding: 10px 80px 10px 70px;
+    margin-bottom: 5px;
+}
+
+.servis-wrap__servis span {
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.servis-wrap__ser {
+    padding: 20px 80px 20px 20px;
+    background: #EBEBEB;
+}
+
+.diskrp-wrap__title h1 {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: xx-large;
+    color: #fff;
+    background: #000000;
+    padding: 10px 100px 10px 150px;
+    margin-bottom: 5px;
+}
+
+.diskrp-wrap__servis span {
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+    color: #000000;
+    background: #EBEBEB;
+    padding: 10px 120px 15px 10px;
+    margin-left: 10px;
+}
+
+.harga-wrap h1 {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: xx-large;
+    color: #fff;
+    background: #000000;
+    padding: 10px 60px 10px 60px;
+    margin-bottom: 5px;
+}
+
+.harga-wrap__servis .bars {
+    color: red;
+}
+
+.harga-wrap span {
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+    color: #000000;
+    background: #EBEBEB;
+    margin-left: 10px;
+    text-align: right;
+    padding: 2px 15px 6px 30px;
+
+}
+
+/* Precaution seris stayle */
+.prec-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prec-left__title h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #4B4B4B;
+    margin-left: 96px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.prec-left__setin h3 {
+    margin-left: 96px;
+    font-weight: bold;
+    color: #4B4B4B;
+    font-size: x-large;
+    margin-bottom: 5px;
+
+
+}
+
+.prec-left__setin span {
+    display: block;
+    margin-left: 96px;
+    color: #4B4B4B;
+    font-size: large;
+
+
+}
+
+.prec-left__interior h3 {
+    margin-left: 96px;
+    font-weight: bold;
+    color: #4B4B4B;
+    font-size: x-large;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.prec-left__interior span {
+    display: block;
+    margin-left: 96px;
+    color: #4B4B4B;
+    font-size: large;
+}
+
+.prec-left__vips h3 {
+    margin-left: 96px;
+    font-weight: bold;
+    color: #4B4B4B;
+    font-size: x-large;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.prec-left__vips span {
+    display: block;
+    margin-left: 96px;
+    color: #4B4B4B;
+    font-size: large;
+}
+
+.prec-left__bank h3 {
+    margin-left: 96px;
+    font-weight: bold;
+    color: #4B4B4B;
+    font-size: x-large;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.prec-left__bank h5 {
+    display: block;
+    margin-left: 96px;
+    color: #4B4B4B;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+.rec-wrap__right {
+    margin-top: 50px;
+    margin-right: 105px;
+}
+
+.rec-wrap__subtotal {
+    display: flex;
+    color: #fff;
+    padding: 1px;
+}
+
+.rec-wrap__subtotal h5 {
+    padding: 5px 10px 5px 70px;
+    margin-right: 2px;
+    text-align: right;
+    background: black;
+    font-size: x-large;
+}
+
+.rec-wrap__title h1 {
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    color: #FD5E14;
+    text-decoration: underline;
+}
+
+.rec-wrap__paid h4 {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 15px;
+    text-align: center;
+    color: #FD5E14;
+}
+
+.rec-wrap__on p {
+    color: #FD5E14;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.rec-wrap__on a {
+    color: #FD5E14;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.rec-wrap__padid h1 {
+    font-size: 60px;
+    color: #DC1112;
+    text-align: center;
+    border: 3px solid red;
+}
+
+.rec-wrap__padid img {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/* Footer seris */
+.footer-wrap__img img {
+    width: 1200px;
+}
+
+.footer-wrap__botton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrap__thank h5 {
+    font-size: 18px;
+}
+
+.footer-wrap__thank span {
+    color: #FD5E14;
+}
+
+.footer-wrap__com a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer-wrap__com span {
+    display: block;
+    text-align: right;
+    color: #FD5E14;
+    font-weight: bold;
+}
